@@ -21,3 +21,15 @@ console.log(student.enrolled);
 student.displayInfo();
 
 //=============================================== 
+//Part 2: Working with JSON
+// Convert the student object into a JSON string
+let studentJSON = JSON.stringify(student);
+
+//Log the JSON string to the console
+console.log(studentJSON);
+
+// Convert the JSON string back into a JavaScript object
+let parsedStudent = JSON.parse(studentJSON);
+
+//Log the newly created object and compare to original
+console.log(parsedStudent);
