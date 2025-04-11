@@ -1,3 +1,7 @@
+// Lab 8: Advanced Object Manipulation and Data Handling
+// Student: Jamil Khalil
+//==================================================
+
 //Part 1: Understanding and Creating Objects
 // 1. Create an object to represent a student with properties
 let student = {
