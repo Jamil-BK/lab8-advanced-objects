@@ -82,3 +82,12 @@ console.log(student.courses);
 console.log(student.totalCourses());
 
 //==================================== 
+//Bonus Task
+// Calculating the average score using reduce
+let totalScore = scores.reduce(function(total, current) {
+    return total + current;
+}, 0);
+
+let averageScore = totalScore / scores.length;
+
+console.log(averageScore);
