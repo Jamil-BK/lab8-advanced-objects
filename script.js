@@ -33,3 +33,20 @@ let parsedStudent = JSON.parse(studentJSON);
 
 //Log the newly created object and compare to original
 console.log(parsedStudent);
+
+//================================================== 
+//Part 3: Using Destructuring Assignment 
+//Use destructuring to extract the name and courses properties from the student object
+let { name, courses } = student;
+console.log(name);
+console.log(courses);
+
+// Creating an array of scores
+let scores = [85, 92, 78, 90];
+
+// Destructuring the first two scores
+let [score1, score2] = scores;
+console.log(score1);
+console.log(score2);
+//==============================================
+
