@@ -63,3 +63,22 @@ console.log(clonedStudent);
 let updatedCourses = [...student.courses, "Art", "Physics"];
 console.log(updatedCourses);
 //============================================================
+
+//Part 5: Object Methods
+// Adding methods to the student object
+student.addCourse = function(newCourse) {
+    this.courses.push(newCourse);
+};
+
+//Add another method to calculate and return the total number of courses.
+student.totalCourses = function() {
+    return this.courses.length;
+};
+
+// Testing the new methods
+student.addCourse("Philosophy");
+console.log(student.courses);
+
+console.log(student.totalCourses());
+
+//==================================== 
